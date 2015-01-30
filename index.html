@@ -1,151 +1,187 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-        <title>Paul O'Neill</title>
-        <meta name="description" content="">
-        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-        <link rel="stylesheet" href="css/normalize.css">
-        <link rel="stylesheet" href="css/main.css">
-        <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Paul C O'Neill</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <style>
+    body {
+        padding-top: 70px;
+        /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+    }
+    </style>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+
+    <![endif]-->
+        <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+
         <script src="js/smoothScroll.js"></script>
-    </head>
-    <body>
-        <!--[if lt IE 7]>
-            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
 
-        <!-- Add your site or application content here -->
+</head>
 
-        <!--<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script> -->
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
-        <script src="js/plugins.js"></script>
-        <script src="js/main.js"></script>
+<body>
 
-        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
-        <script>
-      /*      (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
-            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
-            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
-            e.src='//www.google-analytics.com/analytics.js';
-            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-            ga('create','UA-XXXXX-X');ga('send','pageview');*/
-        </script>
+    <!-- Navigation -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#home"><div class ="title">Paul C. O'Neill</div></a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse title" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav title">
+                    <li>
+                        <a href="#home"><div class = "title">Home</div></a>
+                    </li>
+                    <li>
+                        <a href="#work"><div class = "title">Work</div></a>
+                    </li>
+                    <li>
+                        <a href="#build"><div class = "title">Build</div></a>
+                    </li>
+                    <li>
+                        <a href="#play"><div class = "title">Play</div></a>
+                    </li>
 
-        <div id="background">
-        	<h1>"Background"</h1><!--todo: put in random backgrounds!-->
+                    <li>
+                        <a href="#contact"><div class = "title">Contact</div></a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
         </div>
-        
-        <div id = "header">
-        	<div id = "title">
-        		<a href ="#home"><h1> PAUL C. O'NEILL</h1></a>
-        	</div>
-        	<div id = "nav">
-			<a href ="#work">
-				<div class="navButton">
-					<p>Work</p>
-				</div>
-			</a>
-			<a href ="#build">
-				<div class="navButton">
-					<p>Build</p>
-				</div>
-			</a>
-			<a href ="#play">
-				<div class="navButton">
-					<p>Play</p>
-				</div>
-			</a>
-			<a href ="#contact">
-				<div class="navButton">
-					<p>Contact</p>
-				</div>
-			</a>
-		</div>
-        </div>
-        <div id= "main">
-		<div id="home">
-			<div class = "topSpacer"></div>
-			<div class = "content">
-				<div class="horizontalHalf">				
-					<div id="salutation"><h1>Hi, I'm Paul</h1></div>
-					<div id ="profPic"></div>
-					<div id ="profInfo">
-						<div class="textBox"> 
+        <!-- /.container -->
+    </nav>
+
+    <!-- Page Content -->
+    <div id="main" class="container">
+		<div class="container content" id = "home">
+			<div class="row">
+				<div class="col-md-4  textbox">
+						<div id="salutation"><h1>Hi, I'm Paul</h1></div>
+						<div id ="profInfo">
+						<div id ="profPic"><img src="images/profileImage2.jpg"/></div>
 							<p>&nbsp This site is an attempt to organize projects both past and present, and categorize them based on what their purpose was.  To the right is the blorg, where new projects and ideas will be presented.  Currently the site is in a state of flux, but should stabilize soon.</p>
 							</br>
 							<p> <strong>About:</strong>&nbsp Paul O'Neill is a rapid prototyper interested in the interaction between humans and data, and holds a BS in computational media and a MS in Digital Media both from the Georgia Institute of Technology. </p>
 						</div>
+
 				</div>
-				</div>
-				<div class="horizontalHalf">
-					<div class="textBox" id ="blorg" >
-					<h2>The Blorg</h2>
-					<h3>10/1/2014</h3>
-					<p>&nbsp So I've been a bit remiss in maintaining a personal website, and feel like it'd be a good way to document my progress on several projects as well as act as a place I can point to.  I've currently worked through quite a few of the bugs, and am just closing in on the last few.  Currently all the content is static, though that will change once I've decided on a web framework.</p>
-					</br>
-					<p>&nbsp Currently I have no plans on what to do, and have only spent a couple hours working on this site, so it's a little meager.  I'm going to be adding past projects over the next few days.  As far as the content for the other sections, this is my plan:<ul>
-						</li><p><strong>Work</strong>  will contain information that is publicly released related to my current and past employment (as well as things like past academic things and awards).</p></li>
-						</li><p><strong>Build</strong>  will contain projects exploring different concepts that I'm interested in.</p></li>
-						</li><p><strong>Play</strong>  will contain projects designed to explore a language or framework</p></li>
-						</li><p><strong>Contact</strong>  will contain current methods for contacting me</p></li>
-						</ul></p>
+				<div class="span1"></div>
+				<div class="textbox col-md-7 col-md-offset-1">
+					<div class="contentBox" id ="blorg" >
+						<h2>The Blorg</h2>
+						<div class="textBoxContent">
+							<h3>1/29/2015</h3>
+							<p>&nbsp 
+								Started to transition to bootstrap. 
+							</p>
+							<h3>10/2/2014</h3>
+							<p>&nbsp 
+								Fixed some formatting for the text boxes, added a picture, and have started with some dynamic content stuff.  Still writing the blorgs manually, unfortunately 
+							</p>
+
+							<h3>10/1/2014</h3>
+							
+							<p>&nbsp So I've been a bit remiss in maintaining a personal website, and feel like it'd be a good way to document my progress on several projects as well as act as a place I can point to.  I've currently worked through quite a few of the bugs, and am just closing in on the last few.  Currently all the content is static, though that will change once I've decided on a web framework.</p>
+							</br>
+							<p>&nbsp Currently I have no plans on what to do, and have only spent a couple hours working on this site, so it's a little meager.  I'm going to be adding past projects over the next few days.  As far as the content for the other sections, this is my plan:
+							<ul>
+								<li><p><strong>Work</strong>  will contain information that is publicly released related to my current and past employment (as well as things like past academic things and awards).</p></li>
+								<li><p><strong>Build</strong>  will contain projects exploring different concepts that I'm interested in.</p></li>
+								<li><p><strong>Play</strong>  will contain projects designed to explore a language or framework</p></li>
+								<li><p><strong>Contact</strong>  will contain current methods for contacting me</p></li>
+								</ul>
+								</p>
+							</div>
+						</div>
 					</div>
 				</div>
-			</div>
-        	</div>
-		<div id="work">
-			<div class = "topSpacer"></div>
-			<div class = "content">
-				<div class="horizontalHalf">
-					<div class="textBox" id ="blorg" style="height:auto">
-					<h2>Work</h2>
+		</div>
+		<div class="container content" id = "work">
+			<div class="row">
+			  <div class="textbox col-md-3 col-md-offset-1">					
+				<h2>Work</h2>
+				<div class="textBoxContent">
 					<p>&nbsp  I'm currently a Research Engineer at United Technologies Research Center where I mostly work on proof of concepts for the business units mostly centered around new user interfaces including gestural and methods of interaction.</p>
 					<p> One of the projects I worked on in 2013 was an augmented reality testbed, which we presented a poster on at ISMAR 2014 in Munich.</p>
 					<p>I recently attended the ISMAR conference in Munich, Germany, and have been  </p>
-					</div>
 				</div>
 			</div>
-        	</div>
-		<div id="build">
-			<div class = "topSpacer"></div>
-			<div class = "content">
-				<div class="horizontalHalf" style="height:auto">
-					<div class="textBox"  >
-					<h2>Build</h2>
-					<p>&nbsp So I recently bought a 3d printer, and have been working on figuring out blender in order to get the kind of results I want. Should see something soon!</p>
-					</div>
-				</div>
-			</div>        	'
+			  <div class="textbox col-md-6 col-md-offset-1">tiles</div>
+			</div>
 		</div>
-		<div id="play">
-			<div class = "topSpacer"></div>
-			<div class = "content">
-				<div class="horizontalHalf" style="height:auto">
-					<div class="textBox" >
+		<div class="container content" id = "build">
+			<div class="row">
+			  <div class="textbox col-md-3 col-md-offset-1">
+				<h2>Build</h2>
+				<div class="textBoxContent">
+					<p>&nbsp
+						So I recently bought a 3d printer, and have been working on figuring out blender in order to get the kind of results I want. Should see something soon!
+					</p>
+				</div>
+			  </div>
+			  <div class="textbox col-md-6 col-md-offset-1">projects</div>
+			</div>
+		</div>
+		<div class="container content" id = "play">
+			<div class="row">
+			  <div class="textbox col-md-3 col-md-offset-1">
 					<h2>Play</h2>
-					<p>&nbsp Current list of frameworks/languages I'd like to look into/get better at:  <ul><li>Bootstrap</li><li>Ruby</li><li>Node.js</li><li>Clojure</li><li>d3.s (though I've already got a fair bit of experience with this)</li></ul></p>
+					<div class="textBoxContent">
+						<p>&nbsp Current list of frameworks/languages I'd like to look into/get better at:  <ul><li>Bootstrap</li><li>Ruby</li><li>Node.js</li><li>Clojure</li><li>d3.s (though I've already got a fair bit of experience with this)</li></ul></p>
 					</div>
 				</div>
-			</div>        	'
+			  <div class="textbox col-md-6 col-md-offset-1">projects</div>
+			</div>
 		</div>
-		<div id="contact">
-			<div class = "topSpacer"></div>
-			<div class = "content">
-				<div class="horizontalHalf" style="height:auto">
+		<div class="container content" id = "contact">
+			<div class="row">
+			  <div class="textbox col-md-3 col-md-offset-1">
 					<div class="textBox"  >
-					<h2>Contact</h2>
-					<p>You can reach me by removing the apostraphes from my name and tacking on an @gmail.com for now</p>
+						<h2>Contact</h2>
+						<div class="textBoxContent">
+							<p>You can reach me by removing the apostrophe from my name and tacking on an @gmail.com for now</p>
+						</div>
+						</div>
 					</div>
-				</div>
-			</div>        	'
+		  <div class="textbox col-md-6 col-md-offset-1">.col-md-7</div>
 		</div>
-        </div>
-    </body>
+	</div>
+</div>
+    <!-- /.container -->
+
+    <!-- jQuery Version 1.11.1 -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+</body>
+
 </html>
