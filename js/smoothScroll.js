@@ -14,6 +14,7 @@ $(function() {
         $('html,body').animate({
           scrollTop: target.offset().top
         },{duration: 1000, queue: false});
+	$("#main");
 	$('html,body').animate({
           scrollLeft: target.offset().left
         },{duration: 1000, queue: false});
@@ -25,9 +26,7 @@ $(function() {
 	window.onresize = function() {
 			window.location.href = "#home";
 	}
-$(document).bind('touchmove', function(e) {
-	e.preventDefault();
-});
+
 $( document ).ready(function() {
 	var target = $("#home");
         $('html,body').animate({
@@ -46,3 +45,4 @@ $( document ).ready(function() {
           scrollLeft: target.offset().left
         },{duration: 0, queue: false});
 });
+      
